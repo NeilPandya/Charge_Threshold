@@ -26,7 +26,7 @@ def ask_to_change():
     elif change_opt == 'n' or change_opt == 'N':
         print('Bye!')
     elif change_opt != 'y' or change_opt != 'n':
-        print('Please enter yes or no (y/n).')
+        print('Invalid response. Please enter yes or no (y/n).')
         ask_to_change()
 
 
