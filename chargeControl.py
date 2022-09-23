@@ -1,4 +1,5 @@
-# A simple python script to setting the battery charge threshold easier.
+# A simple python script to set the battery charge threshold.
+# Must be executed with root privileges.
 
 
 def get_current_threshold():
